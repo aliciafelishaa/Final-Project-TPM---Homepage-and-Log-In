@@ -112,6 +112,17 @@ body {
   max-height: 100vh;
   max-width: 100vw;
   filter: brightness(45%);
+  transition: 2s;
+  animation: geserKanan 2s ease-in-out forwards;
+}
+
+@keyframes geserKanan {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 .gradient-light {
