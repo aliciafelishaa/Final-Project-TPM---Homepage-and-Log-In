@@ -658,3 +658,10 @@ footer {
   justify-content: space-between;
   gap: 1rem;
 }
+
+@media only screen and (max-width: 800px){
+  main{
+      display: flex;
+      flex-direction: column;
+  }
+}
